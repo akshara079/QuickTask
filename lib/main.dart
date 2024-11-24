@@ -6,10 +6,8 @@ import 'screens/home_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  const appId =
-      "y2Hdb20eeRXAor2A1JVj8NUCrFacJkkrMuhENuM1"; // Replace with Back4App App ID
-  const clientKey =
-      "3NjUjXf9A4nP621IHIlCVnBjt1rKqXiAzdyjytqY"; // Replace with Back4App Client Key
+  const appId = "y2Hdb20eeRXAor2A1JVj8NUCrFacJkkrMuhENuM1";
+  const clientKey = "3NjUjXf9A4nP621IHIlCVnBjt1rKqXiAzdyjytqY";
   const parseServerUrl = 'https://parseapi.back4app.com';
 
   await Parse().initialize(
