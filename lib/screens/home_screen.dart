@@ -41,10 +41,6 @@ class _HomeScreenState extends State<HomeScreen> {
       task.title,
       task.dueDate,
     );
-    // final response = await task.save();
-    // print(response.success
-    //     ? 'Saved successfully'
-    //     : 'Save failed: ${response.error?.message}');
 
     await _loadTasks();
   }
